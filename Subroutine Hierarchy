@@ -101,7 +101,7 @@ import java.util.ArrayList;
         g2.setColor(Color.BLACK);
         g2.translate(1.9, 2.7); 
         g2.scale(0.3, 0.3);
-        rotatingPolygon(g2); /
+        rotatingPolygon(g2); 
         g2.setTransform(basicTransform); 
        
       
