@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+preserveAspectRatio="xMidYMid">
+
+<defs>
+
+<g id = "Polygon" >
+<polygon points="80,140 120,140 140,100 120,60 80,60 60,100"  
+fill="grey" stroke="black" stroke-width="4" >
+
+<animateTransform attributeName="transform"
+type="rotate"
+from="360 100 100"
+to="0 100 100"
+dur="3s"
+repeatCount="indefinite" />
+</polygon>
+
+
+</g>
+
+<g id="Object">
+<use xlink:href = "#Polygon"  transform = "translate(100,100)" />
+<use xlink:href = "#Polygon" transform = "translate(400,150)" />
+<rect x = "230" y = "150" width = "305" height = "25" fill="red" transform = "rotate(9.5)"/>
+
+<polygon points="350,220 400,450 300,450" /> 
+</g>
+</defs>
+
+<use xlink:href = "#Object"   transform= "translate(0,100) scale(0.7,0.7)" fill="purple"/>
+<use xlink:href = "#Object"   transform = "translate(500,300)" fill="blue"/>
+<use xlink:href = "#Object"   transform = "translate(1000,80) scale(0.4,0.4)" fill="green"/>
+</svg>
