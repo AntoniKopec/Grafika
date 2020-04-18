@@ -111,7 +111,6 @@ public class Lab5 extends GLJPanel implements GLEventListener, KeyListener
     public void korkociag(GL2 gl2,int radius, int numberOfTurns)
     {
 
-
         int numVertices = numberOfTurns*250;
         double angleIncrement = numberOfTurns * Math.PI / numVertices;
         float height=0,x=0,z=0;
