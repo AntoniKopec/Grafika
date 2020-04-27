@@ -162,7 +162,7 @@ public class lab6 extends GLJPanel implements GLEventListener  {
         koloruj();
         gl2.glLightfv(GL_LIGHT1, GL_DIFFUSE, new float[]{r,g,b,0},0);
         koloruj();
-        gl2.glLightfv(GL_LIGHT2, GL_DIFFUSE, new float[]{r,g,b,1},0);
+        gl2.glLightfv(GL_LIGHT2, GL_DIFFUSE, new float[]{r,g,b,0},0);
 		
         
 	
